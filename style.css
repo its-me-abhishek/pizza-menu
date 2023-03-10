@@ -45,7 +45,7 @@ h2{
 }
 
 img{
-    border-radius: 2cm;
+    border-radius: 1cm;
     max-width: 8cm;
     max-height: 8cm;
     min-width: 8cm;
@@ -55,7 +55,7 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     background-color: goldenrod;
-    border-radius: 0.5cm;
+    border-radius: 0cm;
     min-height: 1cm;
     min-width: 2.5cm;
     text-decoration-color: #000033;
@@ -67,4 +67,10 @@ img{
     padding-bottom: 1cm;
     background-color: #f4f2c1;
     border-radius: 1.5cm;
+}
+
+.btn:hover
+{
+    background-color: #000033;
+    color: gold;
 }
